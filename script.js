@@ -199,6 +199,12 @@ containerApp.style.opacity = 100;
 
 //  Experimenting  with the API  
 const now =  new Date(); 
+const options = {
+  hour :  'numeric',
+  minute: 'numeric'
+}
+labelDate.textContent = new Intl.DateTimeFormat('en-GB', options).format(now); 
+
 
 
 // const now = new Date();
