@@ -31,7 +31,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: 'John Davis',
+  owner: 'Maria Davis',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30, 5000, 900],
   interestRate: 1.5,
   pin: 2222,
