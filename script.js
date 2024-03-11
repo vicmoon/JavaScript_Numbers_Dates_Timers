@@ -246,12 +246,10 @@ btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
   
-
   currentAccount = accounts.find(
     acc => acc.username === inputLoginUsername.value
   );
 
- 
 
   if (currentAccount?.pin === +(inputLoginPin.value)) {
     // Display UI and message
